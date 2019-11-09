@@ -1,0 +1,15 @@
+.nike{
+
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px
+}
+button{
+	border: 1pt solid black;
+	background-color: pink; 
+}
+.w{
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px
+}

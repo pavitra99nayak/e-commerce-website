@@ -1,0 +1,220 @@
+body{
+	font-family:consolas;
+}
+
+.btn1{
+	padding-bottom: 5px;
+	border-bottom: 1pt solid gold; 
+	background-color: white;
+	position: fixed;
+	width: 100%;
+}
+th{
+	color: #e91e63;
+	text-align: center;
+}
+.btn1 button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	padding: 10px;
+}
+.btn1 button:hover{
+	text-decoration: underline pink;
+}
+.profile button{
+	border: 1pt solid grey;
+	color: #e91e63;
+}
+.popup {
+  display: none;
+  position: fixed;
+  left: 10px;
+  top:50px;
+  padding-right: 80px;
+  border: 1px solid #e91e63;
+  z-index:1;
+  background-color: #ffffff;
+  font-size: 15px;
+}
+
+.popup a{
+	text-decoration: none;
+	color: #212121;
+}
+
+.profile a{
+	text-decoration: none;
+	color: #212121;
+}
+
+.popup a:hover{
+	text-shadow: 0 0 0.5px;
+}
+.profile a:hover{
+	text-shadow: 0 0 0.5px;
+}
+.profile {
+  display: none;
+  position: absolute;
+  right: 10px;
+  padding-left: 10px;
+  top:50px;
+  border: 1px solid #f1f1f1;
+  z-index: 1;
+  background-color: #ffffff;
+  font-size: 15px;
+}
+
+.bg-image1{
+	border: 2pt solid gold;
+    background: url(images/bg2.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+  	height: 500px;
+}
+#bgim{
+		float: middle;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.container{
+	border: 2pt solid gold;
+    background-color: #eeeeee;
+    width: 1500px;
+  	height: 220px;
+}
+
+.items{
+    width: 20%;
+    float:left;
+}
+
+.thumbnail{
+    height: 200px;
+    width: 200px;
+    clear: right;
+}
+.btn3{
+    background: url(images/bg2.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 30px;
+  	}
+  	.containerimg{
+    width: 100%;
+  	height: 270px;
+  	}
+  	.imgitems{
+  		padding-left: 10px;
+    width: 20%;
+    float:left;
+}
+
+.btn4 a{
+     text-decoration: none;
+  color: #212121;
+}
+.btn4 a:hover{
+  text-shadow: 0 0 0.5px;
+}
+.leftbox {   
+float:left;  
+background-color: #e0e0e0;
+height:530px; 
+width: 45%;
+padding-left: 200px;
+padding-top: 20px;
+} 
+.leftbox a{
+text-decoration: none;
+color: black;
+}
+.leftbox a:hover{
+text-shadow: 0 0 0.3px;
+}
+.middlebox{ 
+padding-top: 20px;
+float:left; 
+height:530px; 
+width: 55%;
+background-color: #e0e0e0;
+} 
+.middlebox a{
+text-decoration: none;
+color: black;
+}
+.middlebox a:hover{
+text-shadow: 0 0 0.3px;
+}
+.signup{
+}
+
+.inner-signup{
+  width: 400px;
+    padding:100px;
+}
+.reg{
+      font-size: 17px;
+      padding: 0px 30px 40px 30px;
+      display: inline-block;
+      border: 1pt solid pink; 
+      margin-left: 400pt; 
+      margin-top:20px;
+      margin-bottom: 100px;
+    }
+    .log{
+    position: relative;
+      font-size: 17px;
+      padding: 0px 30px 40px 30px;
+      display: inline-block;
+      border: 1pt solid pink; 
+      margin-left: 400pt; 
+      margin-top:20px;
+    }
+    .reg input,.log input{
+      height: 30px;
+      width: 260px;
+      border-radius: 3px;
+    }
+    .username span {
+      color: white;
+          }
+
+          input,textarea {
+background-color:transparent;
+background-color: #fce4ec;
+}
+
+.logbor{
+      font-size: 15px;
+      padding-left: 42em;
+      padding-top: 1.5em;
+    }
+    .btn9{
+      padding-left: 567px;
+    }
+input,textarea{
+  border: none;
+}
+.imagedisp{
+  padding-top: 50px;
+    width: 1400px;
+    height: 220px;
+}
+.prod{
+    width: 16%;
+    float:left;
+
+}
+.btncart button{
+  border: none;
+  background-color: pink;
+  text-shadow: 0 0 0.5px
+}
